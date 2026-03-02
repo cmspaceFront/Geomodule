@@ -65,8 +65,8 @@ export default {
     volumes_beyond_boundary: 'Litsenziyalangan uchastka chegarasidan tashqari',
     volumes_excavation: 'Qazib olingan',
     volumes_embankment: 'To\'ldirilgan',
-    volumes_info_modal_title: 'Qazib olingan va to\'ldirilgan hajm',
-    volumes_info_modal_description: 'Litsenziyalangan uchastka ichidagi qazib olingan va to\'ldirilgan hajm sun\'iy yo\'ldosh ma\'lumotlari asosida hisoblanadi. Xaritada litsenziyalangan hudud chegaralari va relyef o\'zgargan zonalar ko\'rsatilgan.',
+    volumes_info_modal_title: 'Qazib olingan hajm',
+    volumes_info_modal_description: 'Litsenziyalangan uchastka ichidagi qazib olingan hajm sun\'iy yo\'ldosh ma\'lumotlari asosida hisoblanadi. Xaritada litsenziyalangan hudud chegaralari va relyef o\'zgargan zonalar ko\'rsatilgan.',
     information: 'Ma\'lumot',
     
     // Upload Snackbar

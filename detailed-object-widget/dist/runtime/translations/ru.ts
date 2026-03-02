@@ -65,8 +65,8 @@ export default {
     volumes_beyond_boundary: 'Выход за границу лицензионного участка',
     volumes_excavation: 'Выемка',
     volumes_embankment: 'Насыпь',
-    volumes_info_modal_title: 'Объём выемки и насыпи',
-    volumes_info_modal_description: 'Объём выемки и насыпи внутри лицензионного участка рассчитывается по спутниковым данным. На карте показаны границы лицензионной территории и зоны изменений рельефа.',
+    volumes_info_modal_title: 'Объём выемки',
+    volumes_info_modal_description: 'Объём выемки внутри лицензионного участка рассчитывается по спутниковым данным. На карте показаны границы лицензионной территории и зоны изменений рельефа.',
     information: 'Информация',
     
     // Upload Snackbar
