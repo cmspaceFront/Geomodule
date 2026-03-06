@@ -23,7 +23,7 @@
       "type": "string",
       "title": "API Base URL",
       "description": "Base URL for the monitoring API",
-      "default": "http://10.0.80.46:5000/api"
+      "default": "https://api-geo.spacemc.uz/api"
     },
     "apiToken": {
       "type": "string",
