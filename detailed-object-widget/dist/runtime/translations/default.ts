@@ -12,6 +12,7 @@ export default {
     info: 'Information',
     calculate: 'Calculation',
     docs: 'Documents',
+    comments_tab: 'Comments',
     
     // Info
     info_title: 'Object Information',
@@ -67,6 +68,27 @@ export default {
     // Delete
     delete_title: 'Confirm Deletion',
     delete_text: 'Are you sure you want to delete this image data?',
+
+    // Comments
+    comments_title: 'Comments',
+    comments_type_label: 'Comment type',
+    comments_text_label: 'Comment text',
+    comments_add: 'Add comment',
+    comments_sending: 'Sending...',
+    comments_empty: 'No comments yet',
+    comments_empty_hint: '',
+    comments_load_error: 'Failed to load comments',
+    comments_send_error: 'Failed to send comment',
+    comments_text_required: 'Please enter comment text',
+    comments_other_placeholder: 'Enter your comment',
+    comments_unknown_type: 'Comment',
+    comments_unknown_user: 'User',
+    comments_no_image: 'Comments are unavailable (Not calculated)',
+
+    comment_type_1: 'Area crossed the boundary and belongs to a neighboring deposit',
+    comment_type_2: 'Topographic map clarification (incorrect deposit or incorrect elevations)',
+    comment_type_3: 'PDF has volume, but no extraction work was carried out',
+    comment_type_4: 'Other — enter your comment',
   },
   
   // Buttons
