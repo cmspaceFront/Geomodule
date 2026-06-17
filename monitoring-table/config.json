@@ -23,7 +23,7 @@
       "type": "string",
       "title": "API Base URL",
       "description": "Base URL for geomonitoring API (Swagger: /docs)",
-      "default": "http://172.22.1.27:5000"
+      "default": "https://api-geo.spacemc.uz"
     },
     "apiUsername": {
       "type": "string",
