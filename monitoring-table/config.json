@@ -1,12 +1,12 @@
 {
   "rootId": "monitoring-table",
   "name": "monitoring-table",
-  "label": "Monitoring Table Widget",
-  "version": "1.0.0",
+  "label": "Masofaviy monitoring moduli",
+  "version": "1.1.0",
   "type": "widget",
   "exbVersion": "1.11.0",
   "author": "you",
-  "description": "Display monitoring data in a sortable table with mobile responsive design",
+  "description": "Combined monitoring table and object details — list from backend API with inline detail view on row click",
   "properties": {
     "hasSettingPage": true,
     "hasStyle": true
@@ -22,13 +22,25 @@
     "apiBaseUrl": {
       "type": "string",
       "title": "API Base URL",
-      "description": "Base URL for the monitoring API",
-      "default": "https://api-geo.spacemc.uz/api"
+      "description": "Base URL for geomonitoring API (Swagger: /docs)",
+      "default": "http://172.22.1.27:5000"
+    },
+    "apiUsername": {
+      "type": "string",
+      "title": "API Username",
+      "description": "Login for POST /api/users/login",
+      "default": ""
+    },
+    "apiPassword": {
+      "type": "string",
+      "title": "API Password",
+      "description": "Password for POST /api/users/login",
+      "default": ""
     },
     "apiToken": {
       "type": "string",
-      "title": "API Token",
-      "description": "JWT token for API authentication",
+      "title": "Manual JWT",
+      "description": "Optional JWT override — skips /api/users/login when set",
       "default": ""
     },
     "enablePagination": {
@@ -42,6 +54,12 @@
       "title": "Items Per Page",
       "description": "Number of items to display per page",
       "default": 20
+    },
+    "useInlineDetail": {
+      "type": "boolean",
+      "title": "Open details in widget",
+      "description": "When enabled, clicking a row opens object details inside this widget instead of navigating to another page",
+      "default": true
     }
   }
 }
